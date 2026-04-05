@@ -1,0 +1,188 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.section1 {
+
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: start;
+  background-color: #1F2937;
+  gap: 30px;
+   padding-bottom: 80px; 
+}
+
+.left div {
+    font-size: 24px;
+}
+
+
+ .left div, h1 {
+    color: #f9faf8;
+ }
+
+
+.intro {
+    width: 420px;
+}
+
+.right  ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+   
+}
+
+.right a {
+    text-decoration: none;
+    color: aqua;
+    font-size: 18px;
+}
+
+.right a:hover {
+    color: red;
+}
+
+.left div, .right  ul {
+     margin-top: 10px;
+}
+
+.left,.right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.intro p,.intro button {
+    margin: 0;
+}
+
+.intro button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 5px 15px;
+}
+
+.intro p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section2 h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section2 {
+    padding-bottom: 80px;
+}
+
+.products img {
+    display: block;
+    border-radius: 10%;
+    border: #3882f6 2px solid;
+    
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.products p{
+    text-align: center;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 80px 0px;
+}
+
+.quote {
+    width: 350px;
+    font-family: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote p {
+    margin: 0;
+}
+
+
+.writer {
+    text-align: end;
+    font-weight: bold;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+ .sign {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    gap : 80px;
+    padding: 20px 150px;
+    border-radius: 5px;
+    color :white;
+}
+
+
+.offer {
+    width: 300px;
+}
+
+.offer p, .offer h3 {
+    margin: 0;
+}
+
+.offer p {
+    font-size: 10px;
+}
+
+
+.sign button {
+    background-color: #3882f6;
+    border: solid white 1px;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 5%;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
